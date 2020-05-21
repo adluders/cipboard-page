@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+/* Gen styles */
+:root {
+  --dark-gray-blue: hsl(210, 10%, 33%);
+  --gray-blue: hsl(201, 11%, 66%);
+  --strong-cyan: hsl(171, 66%, 44%);
+  --light-blue: hsl(233, 100%, 69%);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  text-align: center;
+}
+
+section {
+  margin: 6rem 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--dark-gray-blue);
+}
+
+img:not(.company-logo) {
+  display: inline-block;
+  width: 100%;
+}
+
+/* Util Classes */
+.container {
+  width: 80%;
+  margin: auto;
+}
+.cta {
+  padding: 0.7rem 2rem;
+  border-radius: 2rem;
+  color: hsl(0, 0%, 100%);
+  margin: 0.9rem;
+}
+
+.cta-main {
+  background-color: var(--strong-cyan);
+  box-shadow: 0px 4px 2px 0px hsl(171, 65%, 24%);
+}
+
+.cta-secondary {
+  background-color: var(--light-blue);
+  box-shadow: 0px 4px 2px 0px hsl(233, 44%, 31%);
+}
+
+.lead-text {
+  color: var(--gray-blue);
+}
+
+.section-header h2 {
+  padding: 0 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Header */
+.logo {
+  background-image: url("./images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 2rem;
+  padding-top: 7rem;
+}
+
+.hero {
+  margin: 2rem 0;
+}
+
+.company-message {
+  margin-bottom: 1rem;
+}
+
+.ctas {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main */
+.section-header .lead-text {
+  margin-bottom: 2rem;
+}
+
+.details-header {
+  margin: 1rem 0;
+}
+
+/* Cards */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.card-header {
+  width: 10%;
+  text-align: center;
+}
+
+.card-title {
+  margin: 1rem 0;
+}
+
+/* Comapnies */
+.company {
+  padding: 5rem;
+}
+
+/* Footer */
+footer {
+  background-color: hsla(201, 11%, 66%, 0.2);
+  padding: 3rem;
+  padding-top: 5rem;
+}
+
+.footer-item {
+  margin: 2rem 0;
+}
+
+.footer-link {
+  color: var(--dark-gray-blue);
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem 5rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
